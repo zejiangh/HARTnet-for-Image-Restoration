@@ -55,3 +55,9 @@ python main.py --model DDHRN --scale 4 --reset --n_GPUs 1 --n_resblocks 10 --n_r
 1. For quantitative results, please refer to our paper for more details.
 2. You can download some of the testing results of HARTnet from [here]().
 
+## Reproducing other image restoration tasks
+Please checkback again for more image restoration applications, including color image denoising, JPEG image deblocing, and low-light image recovery.
+
+## Acknowledgement
+
+Our code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch). We thank the authors for sharing their codes.
