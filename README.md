@@ -51,3 +51,7 @@ python main.py --model DDHRN --scale 3 --reset --n_GPUs 1 --n_resblocks 10 --n_r
 # scale x4
 python main.py --model DDHRN --scale 4 --reset --n_GPUs 1 --n_resblocks 10 --n_resgroups 10 --n_feats 64 --data_test Set5+Set14+B100+Urban100 --pre_train ../model/DDHRN_scalex4.pt --test_only --save_results
 ```
+### Results
+1. For quantitative results, please refer to our paper for more details.
+2. You can download some of the testing results of HARTnet from [here]().
+
